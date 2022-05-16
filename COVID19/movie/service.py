@@ -1,16 +1,17 @@
+import json
+import re
+
 import joblib
 import numpy as np
-import re
-from konlpy.tag import Okt
+import numpy as np
+import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
-import json
-from sklearn.model_selection import train_test_split
-import numpy as np
-from sklearn.preprocessing import LabelEncoder
+from konlpy.tag import Okt
 from sklearn.feature_extraction.text import TfidfVectorizer
-import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import LabelEncoder
 
 

@@ -1,8 +1,8 @@
 # !pip install xmltodict
-from bs4 import BeautifulSoup as bs
+import pandas as pd
 import requests
 import xmltodict
-import pandas as pd
+from bs4 import BeautifulSoup as bs
 
 
 class JobService:
